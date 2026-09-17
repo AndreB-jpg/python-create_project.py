@@ -38,8 +38,9 @@ net_pay = gross_pay - tax_withheld
 # and print(). Do not use if statements, loops, functions, or imports.
 # Your code runs top to bottom, once.
 
+print("Employee:", employee)
+print(f"Gross pay: ${gross_pay:.2f}")
+print(f"Tax Withheld: ${tax_withheld:.2f}")
+print(f"Net Pay: ${net_pay:.2f}") 
 
-print(f"Gross pay: ${gross:.2f}")
-
-python check.py
 
