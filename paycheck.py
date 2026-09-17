@@ -39,3 +39,7 @@ net_pay = gross_pay - tax_withheld
 # Your code runs top to bottom, once.
 
 
+print(f"Gross pay: ${gross:.2f}")
+
+python check.py
+
